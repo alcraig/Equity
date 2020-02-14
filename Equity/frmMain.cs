@@ -33,5 +33,15 @@ namespace Equity
         {
 
         }
+
+        private void buttonAddress_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

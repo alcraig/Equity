@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="C:\USERS\CONTA\SOURCE\REPOS\EQUITY\EQUITY\EQUITY.MDF" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=C:\USERS\CONTA\SOURCE\REPOS\EQUITY\EQUITY\EQUITY.MDF;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="Equity.Properties.Settings" SettingsPropertyName="C__USERS_CONTA_SOURCE_REPOS_EQUITY_EQUITY_EQUITY_MDFConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Addresses" Member="Addresses">
+    <Type Name="Address">
+      <Column Name="address_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="address_1" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="address_2" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="town" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="country" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

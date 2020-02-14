@@ -33,5 +33,17 @@ namespace Equity.Properties {
                 return ((string)(this["EquityConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=C:\\USERS\\CONTA\\SOURCE\\REPOS\\EQ" +
+            "UITY\\EQUITY\\EQUITY.MDF;Integrated Security=True;Connect Timeout=30;Encrypt=False" +
+            ";TrustServerCertificate=False")]
+        public string C__USERS_CONTA_SOURCE_REPOS_EQUITY_EQUITY_EQUITY_MDFConnectionString {
+            get {
+                return ((string)(this["C__USERS_CONTA_SOURCE_REPOS_EQUITY_EQUITY_EQUITY_MDFConnectionString"]));
+            }
+        }
     }
 }
