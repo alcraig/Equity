@@ -53,21 +53,21 @@
             // 
             this.txtAddress1.Location = new System.Drawing.Point(91, 9);
             this.txtAddress1.Name = "txtAddress1";
-            this.txtAddress1.Size = new System.Drawing.Size(100, 20);
+            this.txtAddress1.Size = new System.Drawing.Size(239, 20);
             this.txtAddress1.TabIndex = 0;
             // 
             // txtAddress2
             // 
             this.txtAddress2.Location = new System.Drawing.Point(91, 35);
             this.txtAddress2.Name = "txtAddress2";
-            this.txtAddress2.Size = new System.Drawing.Size(100, 20);
+            this.txtAddress2.Size = new System.Drawing.Size(239, 20);
             this.txtAddress2.TabIndex = 1;
             // 
             // txtTown
             // 
             this.txtTown.Location = new System.Drawing.Point(91, 61);
             this.txtTown.Name = "txtTown";
-            this.txtTown.Size = new System.Drawing.Size(100, 20);
+            this.txtTown.Size = new System.Drawing.Size(158, 20);
             this.txtTown.TabIndex = 2;
             // 
             // lblAddress1
@@ -103,7 +103,7 @@
             // 
             this.txtCountry.Location = new System.Drawing.Point(91, 87);
             this.txtCountry.Name = "txtCountry";
-            this.txtCountry.Size = new System.Drawing.Size(100, 20);
+            this.txtCountry.Size = new System.Drawing.Size(158, 20);
             this.txtCountry.TabIndex = 6;
             // 
             // lblCountry
@@ -127,11 +127,14 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.DataSource = this.equityDataSet;
             this.dataGridView1.Location = new System.Drawing.Point(12, 151);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(318, 150);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // bindingSource1
             // 
